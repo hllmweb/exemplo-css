@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>css flexbox layout</title>
+
+	<style>
+		:root {
+		  --margin: 3px;
+		}
+
+		body {
+		  padding: 10px;
+		}
+
+		.container-box {
+		  display: flex;
+		  flex-wrap: wrap;
+		}
+		h2,p{text-align: center;}
+		.a {
+		  width: calc((100%/3) - (var(--margin)* 2));
+		}
+
+		.b {
+		  width: calc((100%/5) - (var(--margin)* 2));
+		}
+
+		.box {
+		  background-color: #9009A0;
+		  border-radius: 5px;
+		  margin: var(--margin);
+		  height: 50px;
+		}
+	</style>
+</head>
+<body>
+
+
+
+<h2>FLEXBOX</h2>
+<p><strong>Flexbox</strong> é para layouts unidimensionais - qualquer coisa que precisa ser disposta em uma linha reta ou em uma coluna.</p>
+<div class="container-box">
+	<div class="box a"></div>
+	<div class="box a"></div>
+	<div class="box a"></div>
+	<div class="box b"></div>
+	<div class="box b"></div>
+	<div class="box b"></div>
+	<div class="box b"></div>
+	<div class="box b"></div>
+</div>
+
+</body>
+</html>
