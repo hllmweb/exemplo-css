@@ -1,5 +1,6 @@
-# CSS
+DICAS DE CSS
 =====================
+
 Propriedades interessantes do css
 by Hugo Mesquita | <http://hugomesquita.com.br>
 
